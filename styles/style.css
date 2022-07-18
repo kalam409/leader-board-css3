@@ -10,13 +10,16 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
     padding: 33px;
     width: 870px;
+    border-radius: 5px;
+    margin-top: 21px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -86,3 +89,52 @@ hr{
     width: 177px;
     height: 117px;
 }
+/* Lates course */
+.banner img{
+    position:relative;
+    width: 224px;
+    height: 104px;
+}
+/* detail class start */
+.detail-info{
+    display: flex;
+}
+.detail .detail-title{
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+}
+.detail .author{
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+/* detail class end */
+/* review-mark class start*/
+.fa-star.filled{
+    font-size: 12px;
+    color: #FFC014;
+}
+.fa-star.empty{
+    font-size: 12px;
+    color: #AEAEAE;
+}
+.review-mark > p{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 22px;
+}
+.time-duration{
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    width: 94.83px;
+    height: 29.38px;
+}
+.fa-clock.time{
+    color: #FF4A60;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+/* review-mark class end*/
